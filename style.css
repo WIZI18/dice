@@ -1,0 +1,48 @@
+body{
+     /* background-color: aqua; */
+     background-image: linear-gradient(to right, gold, rgb(249, 249, 173));
+    }
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: brown;
+    text-shadow: 3px 3px 1px rgb(240, 121, 121);
+}
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    max-width: 600px;
+    margin: 0px auto;
+  }
+  
+  .box {
+    height: 90px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid brown;
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .box:hover {
+    background-color: brown;
+    color: white;
+  }
+  
+  .info_box {
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid brown;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .msg {
+    text-align: center;
+  }
